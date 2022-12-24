@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY','django-insecure-aia(3siu89tmicjs$v%g5m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+ALLOWED_HOSTS = ['hab8780-django-todo-app.herokuapp.com']
 
 
 # Application definition
